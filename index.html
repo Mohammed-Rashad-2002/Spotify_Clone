@@ -10,7 +10,11 @@
     <link rel="icon" type="image/png" href="https://wwwmarketing.scdn.co/img/favicon-16x16.png" sizes="16x16">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script>
-        alert("Please Open this website in laptop or pc for better experience !");
+        console.log(window.innerWidth);
+        if(window.innerWidth<1200){
+            alert("Please Open this website in laptop or pc for better experience !");
+        }
+        
     </script>
 </head>
 
